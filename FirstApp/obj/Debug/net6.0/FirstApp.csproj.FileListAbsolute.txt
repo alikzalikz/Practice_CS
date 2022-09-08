@@ -1,0 +1,15 @@
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/FirstApp.csproj.AssemblyReference.cache
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/FirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/FirstApp.AssemblyInfoInputs.cache
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/FirstApp.AssemblyInfo.cs
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/FirstApp.csproj.CoreCompileInputs.cache
+/home/alikz07/Development/FirstApp/bin/Debug/net6.0/FirstApp
+/home/alikz07/Development/FirstApp/bin/Debug/net6.0/FirstApp.deps.json
+/home/alikz07/Development/FirstApp/bin/Debug/net6.0/FirstApp.runtimeconfig.json
+/home/alikz07/Development/FirstApp/bin/Debug/net6.0/FirstApp.dll
+/home/alikz07/Development/FirstApp/bin/Debug/net6.0/ref/FirstApp.dll
+/home/alikz07/Development/FirstApp/bin/Debug/net6.0/FirstApp.pdb
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/FirstApp.dll
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/ref/FirstApp.dll
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/FirstApp.pdb
+/home/alikz07/Development/FirstApp/obj/Debug/net6.0/FirstApp.genruntimeconfig.cache

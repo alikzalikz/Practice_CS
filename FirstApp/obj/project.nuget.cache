@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EmdHm1rSHXZPw4gSJ/z7XuFMQU1FTj+nNxckZRjrqjaqzQKpEQzZjGjpJcosm7WGar3+bMrcj0LTkMLiYvzLCw==",
+  "success": true,
+  "projectFilePath": "/home/alikz07/Development/FirstApp/FirstApp.csproj",
+  "expectedPackageFiles": [
+    "/home/alikz07/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
