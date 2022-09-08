@@ -1,0 +1,15 @@
+/home/alikz07/Development/Exeption_Example/bin/Debug/net6.0/Exeption_Example
+/home/alikz07/Development/Exeption_Example/bin/Debug/net6.0/Exeption_Example.deps.json
+/home/alikz07/Development/Exeption_Example/bin/Debug/net6.0/Exeption_Example.runtimeconfig.json
+/home/alikz07/Development/Exeption_Example/bin/Debug/net6.0/Exeption_Example.dll
+/home/alikz07/Development/Exeption_Example/bin/Debug/net6.0/ref/Exeption_Example.dll
+/home/alikz07/Development/Exeption_Example/bin/Debug/net6.0/Exeption_Example.pdb
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/Exeption_Example.csproj.AssemblyReference.cache
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/Exeption_Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/Exeption_Example.AssemblyInfoInputs.cache
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/Exeption_Example.AssemblyInfo.cs
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/Exeption_Example.csproj.CoreCompileInputs.cache
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/Exeption_Example.dll
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/ref/Exeption_Example.dll
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/Exeption_Example.pdb
+/home/alikz07/Development/Exeption_Example/obj/Debug/net6.0/Exeption_Example.genruntimeconfig.cache
