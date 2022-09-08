@@ -1,0 +1,15 @@
+/home/alikz07/Development/MyCal/bin/Debug/net6.0/MyCal
+/home/alikz07/Development/MyCal/bin/Debug/net6.0/MyCal.deps.json
+/home/alikz07/Development/MyCal/bin/Debug/net6.0/MyCal.runtimeconfig.json
+/home/alikz07/Development/MyCal/bin/Debug/net6.0/MyCal.dll
+/home/alikz07/Development/MyCal/bin/Debug/net6.0/ref/MyCal.dll
+/home/alikz07/Development/MyCal/bin/Debug/net6.0/MyCal.pdb
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/MyCal.csproj.AssemblyReference.cache
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/MyCal.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/MyCal.AssemblyInfoInputs.cache
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/MyCal.AssemblyInfo.cs
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/MyCal.csproj.CoreCompileInputs.cache
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/MyCal.dll
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/ref/MyCal.dll
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/MyCal.pdb
+/home/alikz07/Development/MyCal/obj/Debug/net6.0/MyCal.genruntimeconfig.cache
