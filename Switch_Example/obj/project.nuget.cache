@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5HnE+HgFH5ftatmd4OY0wKOIIClpPPsb+fgmBYo9kPUJW/uZv5o+GfOZCzIUIf7Gq8+osRLByVcmADUN4YQReA==",
+  "success": true,
+  "projectFilePath": "/home/alikz07/Development/Switch_Example/Switch_Example.csproj",
+  "expectedPackageFiles": [
+    "/home/alikz07/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
