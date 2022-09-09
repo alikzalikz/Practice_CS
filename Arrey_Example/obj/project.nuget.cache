@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FS++2ugFvWzOl7Cr5fB5zO5AobeR77q4moC5bOgxB/jHO/vo8kob293CmdSRo0nh9JRxxQYXcRyjU4k1W6TQVg==",
+  "success": true,
+  "projectFilePath": "/home/alikz07/Documents/GitHub/Practice/Arrey_Example/Arrey_Example.csproj",
+  "expectedPackageFiles": [
+    "/home/alikz07/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
