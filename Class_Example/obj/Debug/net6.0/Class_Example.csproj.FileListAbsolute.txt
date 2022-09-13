@@ -1,0 +1,15 @@
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/bin/Debug/net6.0/Class_Example
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/bin/Debug/net6.0/Class_Example.deps.json
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/bin/Debug/net6.0/Class_Example.runtimeconfig.json
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/bin/Debug/net6.0/Class_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/bin/Debug/net6.0/ref/Class_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/bin/Debug/net6.0/Class_Example.pdb
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/Class_Example.csproj.AssemblyReference.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/Class_Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/Class_Example.AssemblyInfoInputs.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/Class_Example.AssemblyInfo.cs
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/Class_Example.csproj.CoreCompileInputs.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/Class_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/ref/Class_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/Class_Example.pdb
+/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/Debug/net6.0/Class_Example.genruntimeconfig.cache
