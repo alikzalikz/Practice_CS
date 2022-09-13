@@ -13,7 +13,7 @@ namespace Arrey_Example
       
       int[] numbers = {1, 2, 3, 4}; // start counting from 0!
 
-      int number = numbers[2]; // number = 5
+      int number = numbers[2]; // number = 3
 
       string[] Names = {"Reza", "Ali", "Iman"};
 
