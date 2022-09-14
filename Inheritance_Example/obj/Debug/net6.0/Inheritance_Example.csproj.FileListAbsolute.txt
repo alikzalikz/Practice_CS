@@ -1,0 +1,15 @@
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/bin/Debug/net6.0/Inheritance_Example
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/bin/Debug/net6.0/Inheritance_Example.deps.json
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/bin/Debug/net6.0/Inheritance_Example.runtimeconfig.json
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/bin/Debug/net6.0/Inheritance_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/bin/Debug/net6.0/ref/Inheritance_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/bin/Debug/net6.0/Inheritance_Example.pdb
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/Inheritance_Example.csproj.AssemblyReference.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/Inheritance_Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/Inheritance_Example.AssemblyInfoInputs.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/Inheritance_Example.AssemblyInfo.cs
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/Inheritance_Example.csproj.CoreCompileInputs.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/Inheritance_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/ref/Inheritance_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/Inheritance_Example.pdb
+/home/alikz07/Documents/GitHub/Practice_CS/Inheritance_Example/obj/Debug/net6.0/Inheritance_Example.genruntimeconfig.cache
