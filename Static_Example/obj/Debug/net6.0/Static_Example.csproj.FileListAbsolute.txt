@@ -1,0 +1,15 @@
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/Static_Example.csproj.AssemblyReference.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/Static_Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/Static_Example.AssemblyInfoInputs.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/Static_Example.AssemblyInfo.cs
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/Static_Example.csproj.CoreCompileInputs.cache
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/bin/Debug/net6.0/Static_Example
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/bin/Debug/net6.0/Static_Example.deps.json
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/bin/Debug/net6.0/Static_Example.runtimeconfig.json
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/bin/Debug/net6.0/Static_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/bin/Debug/net6.0/ref/Static_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/bin/Debug/net6.0/Static_Example.pdb
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/Static_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/ref/Static_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/Static_Example.pdb
+/home/alikz07/Documents/GitHub/Practice_CS/Static_Example/obj/Debug/net6.0/Static_Example.genruntimeconfig.cache
