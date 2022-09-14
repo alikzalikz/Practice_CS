@@ -1,0 +1,15 @@
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/bin/Debug/net6.0/GenericList_Example
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/bin/Debug/net6.0/GenericList_Example.deps.json
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/bin/Debug/net6.0/GenericList_Example.runtimeconfig.json
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/bin/Debug/net6.0/GenericList_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/bin/Debug/net6.0/ref/GenericList_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/bin/Debug/net6.0/GenericList_Example.pdb
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/GenericList_Example.csproj.AssemblyReference.cache
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/GenericList_Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/GenericList_Example.AssemblyInfoInputs.cache
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/GenericList_Example.AssemblyInfo.cs
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/GenericList_Example.csproj.CoreCompileInputs.cache
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/GenericList_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/ref/GenericList_Example.dll
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/GenericList_Example.pdb
+/home/alikz07/Documents/GitHub/Practice_CS/GenericList_Example/obj/Debug/net6.0/GenericList_Example.genruntimeconfig.cache
