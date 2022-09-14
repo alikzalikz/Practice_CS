@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yAKwSPgqhFZ8wyel4195M1K8vvXqIuvCpXTc0YVPmhZ2D0U7QinOVQeKVpvPUzluSB3qB+riBb8b1vwWlSJlfw==",
+  "success": true,
+  "projectFilePath": "/home/alikz07/Documents/GitHub/Practice_CS/Property_Example/Property_Example.csproj",
+  "expectedPackageFiles": [
+    "/home/alikz07/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
