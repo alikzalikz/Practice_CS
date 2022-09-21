@@ -33,7 +33,7 @@ namespace Class_Example
       Console.ForegroundColor = ConsoleColor.Green;
       foreach (Person person in people)
       {
-        Console.WriteLine($"Name : {person.name}  Family : {person.family}  WebSite :{person.website}");
+        Console.WriteLine($"Name: {person.name}  Family: {person.family}  WebSite: {person.website}");
       }
       Console.ResetColor();
 

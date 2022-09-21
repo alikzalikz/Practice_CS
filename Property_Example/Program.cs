@@ -16,6 +16,7 @@ namespace Property_Example
             
             System.Console.WriteLine($"Car Name Is {pride.CarName}"); 
             System.Console.WriteLine($"Speed Is {pride.Speed}");
+            System.Console.ReadKey();
         }
     }
 }
