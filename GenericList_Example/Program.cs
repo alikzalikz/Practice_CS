@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _Example
+namespace GenericList_Example
 {
     class Program
     {
@@ -19,7 +19,7 @@ namespace _Example
             Numbers.Add(10);
 
             Numbers.Remove(7);
-            Numbers.RemoveAt(4); // If you remove dome index, decrement number of index
+            Numbers.RemoveAt(4); // If you remove index, decrement number of index
 
             List<string> Names = new List<string>();
             Names.Add("ali");
