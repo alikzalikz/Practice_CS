@@ -37,8 +37,8 @@ namespace Interface_Example
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"Name: {p.Name}");
-                Console.WriteLine($"Name: {p.Family}");
-                Console.WriteLine($"Name: {p.Age}");
+                Console.WriteLine($"Family: {p.Family}");
+                Console.WriteLine($"Age: {p.Age}");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("*******************");
             }
