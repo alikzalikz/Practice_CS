@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/alikz07/.nuget/packages/": {}
+    "C:\\Users\\Ali\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/Class_Example.csproj",
+      "projectUniqueName": "C:\\Users\\Ali\\WorkSpace\\Git\\Practice_CS\\Class_Example\\Class_Example.csproj",
       "projectName": "Class_Example",
-      "projectPath": "/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/Class_Example.csproj",
-      "packagesPath": "/home/alikz07/.nuget/packages/",
-      "outputPath": "/home/alikz07/Documents/GitHub/Practice_CS/Class_Example/obj/",
+      "projectPath": "C:\\Users\\Ali\\WorkSpace\\Git\\Practice_CS\\Class_Example\\Class_Example.csproj",
+      "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ali\\WorkSpace\\Git\\Practice_CS\\Class_Example\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alikz07/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,22 +51,17 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.9, 6.0.9]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.109/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

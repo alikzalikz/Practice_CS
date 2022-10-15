@@ -10,12 +10,12 @@ namespace Class_Example
   {
     static void Main(string[] args)
     {
-      
+
       Console.WriteLine("Please Enter Number of Person :");
       int nump = Convert.ToInt32(Console.ReadLine());
       Console.WriteLine("*******************************");
       Person[] people = new Person[nump];
-      
+
       for (int i =0; i < nump; i++)
       {
         Console.WriteLine($"Enter Person {(i+1)} Name :");
@@ -51,7 +51,7 @@ namespace Class_Example
 //      int sum = MyClass.Sum(5, 6);
 //      Console.WriteLine(sum);
 //      Console.WriteLine(MyClass.FullName("ali", "Koleiny zadeh"));
-//      
+//
 //      Car car1 = new Car();
 //      car1.CarName = "L90";
 //      car1.CarSpeed = 160;
@@ -63,7 +63,7 @@ namespace Class_Example
 //      car2.CarSpeed = 100;
 //      car2.CarModel = "1360";
 //      Car.PrintCar(car2.CarName, car2.CarSpeed, car2.CarModel);
-//      
+//
 //      Person p1 = new Person("ali", "Koleiny", "google.com");
 //      Person p2 = new Person("ahmad", "Rezaei", "github.com");
 //
