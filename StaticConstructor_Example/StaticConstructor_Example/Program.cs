@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace StaticConstructor_Example
 {
-    internal class Program
+    class Program
     {
+        static void Main(string[] args)
+        {
+            MyClass m1 = new MyClass();
+            MyClass m2 = new MyClass();
+            MyClass m3 = new MyClass();
+            MyClass m4 = new MyClass();
+            MyClass m5 = new MyClass();
+
+            Console.ReadKey();
+        }
     }
 }
