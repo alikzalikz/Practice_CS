@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ConsoleApp1"
+    "\\Interface_Example",
+    "\\Interface_Example\\Interface_Example"
   ],
-  "SelectedNode": "\\Switch_Example",
+  "SelectedNode": "\\Interface_Example\\Interface_Example\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
