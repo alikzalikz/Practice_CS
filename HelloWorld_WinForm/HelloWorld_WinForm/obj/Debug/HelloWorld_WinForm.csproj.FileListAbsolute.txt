@@ -1,0 +1,11 @@
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\bin\Debug\HelloWorld_WinForm.exe.config
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\bin\Debug\HelloWorld_WinForm.exe
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\bin\Debug\HelloWorld_WinForm.pdb
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\obj\Debug\HelloWorld_WinForm.csproj.AssemblyReference.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\obj\Debug\HelloWorld_WinForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\obj\Debug\HelloWorld_WinForm.Form1.resources
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\obj\Debug\HelloWorld_WinForm.Properties.Resources.resources
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\obj\Debug\HelloWorld_WinForm.csproj.GenerateResource.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\obj\Debug\HelloWorld_WinForm.csproj.CoreCompileInputs.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\obj\Debug\HelloWorld_WinForm.exe
+C:\Users\Ali\WorkSpace\Git\Practice_CS\HelloWorld_WinForm\HelloWorld_WinForm\obj\Debug\HelloWorld_WinForm.pdb
