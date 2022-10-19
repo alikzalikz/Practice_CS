@@ -8,5 +8,14 @@ namespace PartialClass_Example
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            MyClass my = new MyClass();
+
+            Console.WriteLine(my.Sum(6, 5));
+            Console.WriteLine(my.Minus(6, 5));
+
+            Console.ReadKey();
+        }
     }
 }
