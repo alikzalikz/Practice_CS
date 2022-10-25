@@ -14,7 +14,24 @@ namespace MyContacts.Services
         private string _connectionString = "Data Source=.;Initial Catalog=Contact_DB;Integrated Security=true";
         public bool Delete(int contactID)
         {
-            throw new NotImplementedException();
+            SqlConnection connection = new SqlConnection(_connectionString);
+            try
+            {
+                string query = "Delete From MyContacts Where ContactID=@ID";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@ID", contactID);
+                connection.Open();
+                command.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
 
         public bool Insert(string name, string family, string mobile, string email, int age, string address)
@@ -23,7 +40,7 @@ namespace MyContacts.Services
 
             try
             {
-                string query = "Insert Into MyContacts (Name,Family,Mobile,Email,Age,Address) Values (@Name,@Family,@Mobile,@Email,@Age,@Address)";
+                string query = "Insert Into MyContacts (Name,Family,Mobile,Email,Age,Address) values (@Name,@Family,@Mobile,@Email,@Age,@Address)";
                 SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@Name", name);
                 command.Parameters.AddWithValue("@Family", family);
@@ -32,7 +49,7 @@ namespace MyContacts.Services
                 command.Parameters.AddWithValue("@Age", age);
                 command.Parameters.AddWithValue("@Address", address);
                 connection.Open();
-                command.BeginExecuteNonQuery();
+                command.ExecuteNonQuery();
                 return true;
             }
             catch

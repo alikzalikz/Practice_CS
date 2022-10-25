@@ -45,5 +45,26 @@ namespace MyContacts
                 BindGride();
             }
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dgContacts.CurrentRow != null)
+            {
+                string rowName = dgContacts.CurrentRow.Cells[1].Value.ToString();
+                string rowFamily = dgContacts.CurrentRow.Cells[2].Value.ToString();
+                string fullName = rowName + " " + rowFamily;
+
+                if (MessageBox.Show($"آیا از حذف {fullName} اطمینان دارید؟", "توجه", MessageBoxButtons.YesNo) == DialogResult.OK)
+                {
+                    int contactCode = int.Parse(dgContacts.CurrentRow.Cells[0].Value.ToString());
+                    repository.Delete(contactCode);
+                    BindGride();
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا یک مخاطب را از لیست انتخاب نمایید");
+            }
+        }
     }
 }
