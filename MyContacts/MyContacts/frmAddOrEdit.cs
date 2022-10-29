@@ -15,6 +15,7 @@ namespace MyContacts
     public partial class frmAddOrEdit : Form
     {
         IContactsRepository repository;
+        public int contactID = 0;
         public frmAddOrEdit()
         {
             InitializeComponent();
@@ -28,7 +29,24 @@ namespace MyContacts
 
         private void frmAddOrEdit_Load(object sender, EventArgs e)
         {
-            this.Text = "افزودن مخاطب جدید";
+            if (contactID == 0)
+            {
+                this.Text = "افزودن مخاطب جدید";
+            }
+            else
+            {
+                this.Text = "ویرایش مخاطب";
+
+                DataTable dt = repository.SelectRow(contactID);
+                txtName.Text = dt.Rows[0][1].ToString();
+                txtFamily.Text = dt.Rows[0][2].ToString();
+                txtMobile.Text = dt.Rows[0][3].ToString();
+                txtEmail.Text = dt.Rows[0][4].ToString();
+                txtAge.Value = int.Parse(dt.Rows[0][5].ToString());
+                txtAddress.Text = dt.Rows[0][6].ToString();
+
+                btnSubmit.Text = "ویرایش";
+            }
         }
 
         bool ValidateInputs()
@@ -66,15 +84,24 @@ namespace MyContacts
         {
             if (ValidateInputs())
             {
-                bool isSuccess = repository.Insert(txtName.Text, txtFamily.Text, txtMobile.Text, txtEmail.Text, (int)txtAge.Value, txtAddress.Text);
+                bool isSuccess;
+                if (contactID == 0)
+                {
+                    isSuccess = repository.Insert(txtName.Text, txtFamily.Text, txtMobile.Text, txtEmail.Text, (int)txtAge.Value, txtAddress.Text);
+                }
+                else
+                {
+                    isSuccess = repository.Update(contactID, txtName.Text, txtFamily.Text, txtMobile.Text, txtEmail.Text, (int)txtAge.Value, txtAddress.Text);
+                }
+
                 if (isSuccess == true)
                 {
-                    MessageBox.Show("مخاطب جدید ثبت شد", "ثبت مخاطب جدید", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("عملیات با موفقیت انجام شد", "انجام عملیات", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     DialogResult = DialogResult.OK;
                 }
                 else
                 {
-                    MessageBox.Show("مخاطب جدید ثبت نشد", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("عملیات با شکست مواجه شد", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

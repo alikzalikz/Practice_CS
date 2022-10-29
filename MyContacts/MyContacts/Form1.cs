@@ -56,14 +56,28 @@ namespace MyContacts
 
                 if (MessageBox.Show($"آیا از حذف {fullName} اطمینان دارید؟", "توجه", MessageBoxButtons.YesNo) == DialogResult.OK)
                 {
-                    int contactCode = int.Parse(dgContacts.CurrentRow.Cells[0].Value.ToString());
-                    repository.Delete(contactCode);
+                    int contactID = int.Parse(dgContacts.CurrentRow.Cells[0].Value.ToString());
+                    repository.Delete(contactID);
                     BindGride();
                 }
             }
             else
             {
                 MessageBox.Show("لطفا یک مخاطب را از لیست انتخاب نمایید");
+            }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dgContacts.CurrentRow != null)
+            {
+                int contactID = int.Parse(dgContacts.CurrentRow.Cells[0].Value.ToString());
+                frmAddOrEdit frm = new frmAddOrEdit();
+                frm.contactID = contactID;
+                if (frm.ShowDialog() == DialogResult.OK)
+                {
+                    BindGride();
+                }
             }
         }
     }

@@ -74,12 +74,40 @@ namespace MyContacts.Services
 
         public DataTable SelectRow(int contactID)
         {
-            throw new NotImplementedException();
+            string query = "SELECT * FROM MyContacts Where ContactID = "+ contactID;
+            SqlConnection connection = new SqlConnection(_connectionString);
+            SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+            DataTable data = new DataTable();
+            adapter.Fill(data);
+            return data;
         }
 
         public bool Update(int contactID, string name, string family, string mobile, string email, int age, string address)
         {
-            throw new NotImplementedException();
+            SqlConnection connection = new SqlConnection(_connectionString);
+            try
+            {
+                string query = "UPDATE MyContacts SET Name=@Name,Family=@Family,Mobile=@Mobile,Email=@Email,Age=@Age,Address=@Address WHERE ContactID=@ID";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@ID", contactID);
+                command.Parameters.AddWithValue("@Name", name);
+                command.Parameters.AddWithValue("@Family", family);
+                command.Parameters.AddWithValue("@Mobile", mobile);
+                command.Parameters.AddWithValue("@Email", email);
+                command.Parameters.AddWithValue("@Age", age);
+                command.Parameters.AddWithValue("@Address", address);
+                connection.Open();
+                command.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
     }
 }
