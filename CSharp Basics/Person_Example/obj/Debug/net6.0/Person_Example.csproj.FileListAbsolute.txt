@@ -1,0 +1,15 @@
+/home/alikz07/Documents/GitHub/Practice/Person_Example/bin/Debug/net6.0/Person_Example
+/home/alikz07/Documents/GitHub/Practice/Person_Example/bin/Debug/net6.0/Person_Example.deps.json
+/home/alikz07/Documents/GitHub/Practice/Person_Example/bin/Debug/net6.0/Person_Example.runtimeconfig.json
+/home/alikz07/Documents/GitHub/Practice/Person_Example/bin/Debug/net6.0/Person_Example.dll
+/home/alikz07/Documents/GitHub/Practice/Person_Example/bin/Debug/net6.0/ref/Person_Example.dll
+/home/alikz07/Documents/GitHub/Practice/Person_Example/bin/Debug/net6.0/Person_Example.pdb
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/Person_Example.csproj.AssemblyReference.cache
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/Person_Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/Person_Example.AssemblyInfoInputs.cache
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/Person_Example.AssemblyInfo.cs
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/Person_Example.csproj.CoreCompileInputs.cache
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/Person_Example.dll
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/ref/Person_Example.dll
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/Person_Example.pdb
+/home/alikz07/Documents/GitHub/Practice/Person_Example/obj/Debug/net6.0/Person_Example.genruntimeconfig.cache

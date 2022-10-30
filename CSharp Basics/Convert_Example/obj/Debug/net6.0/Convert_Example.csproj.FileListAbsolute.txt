@@ -1,0 +1,15 @@
+/home/alikz07/Development/Convert_Example/bin/Debug/net6.0/Convert_Example
+/home/alikz07/Development/Convert_Example/bin/Debug/net6.0/Convert_Example.deps.json
+/home/alikz07/Development/Convert_Example/bin/Debug/net6.0/Convert_Example.runtimeconfig.json
+/home/alikz07/Development/Convert_Example/bin/Debug/net6.0/Convert_Example.dll
+/home/alikz07/Development/Convert_Example/bin/Debug/net6.0/ref/Convert_Example.dll
+/home/alikz07/Development/Convert_Example/bin/Debug/net6.0/Convert_Example.pdb
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/Convert_Example.csproj.AssemblyReference.cache
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/Convert_Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/Convert_Example.AssemblyInfoInputs.cache
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/Convert_Example.AssemblyInfo.cs
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/Convert_Example.csproj.CoreCompileInputs.cache
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/Convert_Example.dll
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/ref/Convert_Example.dll
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/Convert_Example.pdb
+/home/alikz07/Development/Convert_Example/obj/Debug/net6.0/Convert_Example.genruntimeconfig.cache

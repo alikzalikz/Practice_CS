@@ -1,0 +1,15 @@
+/home/alikz07/Development/if_Example/bin/Debug/net6.0/if_Example
+/home/alikz07/Development/if_Example/bin/Debug/net6.0/if_Example.deps.json
+/home/alikz07/Development/if_Example/bin/Debug/net6.0/if_Example.runtimeconfig.json
+/home/alikz07/Development/if_Example/bin/Debug/net6.0/if_Example.dll
+/home/alikz07/Development/if_Example/bin/Debug/net6.0/ref/if_Example.dll
+/home/alikz07/Development/if_Example/bin/Debug/net6.0/if_Example.pdb
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/if_Example.csproj.AssemblyReference.cache
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/if_Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/if_Example.AssemblyInfoInputs.cache
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/if_Example.AssemblyInfo.cs
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/if_Example.csproj.CoreCompileInputs.cache
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/if_Example.dll
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/ref/if_Example.dll
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/if_Example.pdb
+/home/alikz07/Development/if_Example/obj/Debug/net6.0/if_Example.genruntimeconfig.cache
