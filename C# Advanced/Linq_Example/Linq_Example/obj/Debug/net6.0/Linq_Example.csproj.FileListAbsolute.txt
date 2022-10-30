@@ -1,0 +1,15 @@
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\bin\Debug\net6.0\Linq_Example.exe
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\bin\Debug\net6.0\Linq_Example.deps.json
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\bin\Debug\net6.0\Linq_Example.runtimeconfig.json
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\bin\Debug\net6.0\Linq_Example.dll
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\bin\Debug\net6.0\Linq_Example.pdb
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\Linq_Example.csproj.AssemblyReference.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\Linq_Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\Linq_Example.AssemblyInfoInputs.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\Linq_Example.AssemblyInfo.cs
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\Linq_Example.csproj.CoreCompileInputs.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\Linq_Example.dll
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\refint\Linq_Example.dll
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\Linq_Example.pdb
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\Linq_Example.genruntimeconfig.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\Linq_Example\Linq_Example\obj\Debug\net6.0\ref\Linq_Example.dll
