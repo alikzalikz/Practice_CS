@@ -1,0 +1,13 @@
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\bin\Debug\EF_Example.exe.config
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\bin\Debug\EF_Example.exe
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\bin\Debug\EF_Example.pdb
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\bin\Debug\EntityFramework.dll
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\bin\Debug\EntityFramework.xml
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\obj\Debug\EF_Example.csproj.AssemblyReference.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\obj\Debug\EF_Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\obj\Debug\EF_Example.csproj.CoreCompileInputs.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\obj\Debug\EF_Example.csproj.CopyComplete
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\obj\Debug\EF_Example.exe
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Advanced\EF_Example\EF_Example\obj\Debug\EF_Example.pdb
