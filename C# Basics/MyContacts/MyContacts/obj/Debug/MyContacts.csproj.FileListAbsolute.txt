@@ -10,3 +10,20 @@ C:\Users\Ali\WorkSpace\Git\Practice_CS\MyContacts\MyContacts\bin\Debug\MyContact
 C:\Users\Ali\WorkSpace\Git\Practice_CS\MyContacts\MyContacts\obj\Debug\MyContacts.exe
 C:\Users\Ali\WorkSpace\Git\Practice_CS\MyContacts\MyContacts\obj\Debug\MyContacts.pdb
 C:\Users\Ali\WorkSpace\Git\Practice_CS\MyContacts\MyContacts\obj\Debug\MyContacts.frmAddOrEdit.resources
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.AssemblyReference.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.Form1.resources
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.frmAddOrEdit.resources
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.Properties.Resources.resources
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.GenerateResource.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.CoreCompileInputs.cache
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.exe
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.pdb
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\bin\Debug\MyContacts.exe.config
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\bin\Debug\MyContacts.exe
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\bin\Debug\MyContacts.pdb
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\bin\Debug\EntityFramework.dll
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\bin\Debug\EntityFramework.xml
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ali\WorkSpace\Git\Practice_CS\C# Basics\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.CopyComplete
