@@ -20,3 +20,4 @@ Book name: C# 11 and .NET 7 – Modern Cross-Platform Development Fundamentals
 Teacher: Mark J. Price      Number of Pages: 819 
 Topics: C# | start building website using ASP.NET Core | Blazor | EF Core
 ```
+![](content/images/CS11Dotnet07%20Book.jpg)
