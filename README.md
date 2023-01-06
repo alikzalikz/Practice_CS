@@ -1,4 +1,4 @@
-# Practice_CS
+# Practice_CS <a href="https://wakatime.com/badge/user/32ba38cc-b27f-46f3-8ac4-9ef45a94dcec/project/d5da0645-d317-426d-89d4-afe40dac6cc5"><img src="https://wakatime.com/badge/user/32ba38cc-b27f-46f3-8ac4-9ef45a94dcec/project/d5da0645-d317-426d-89d4-afe40dac6cc5.svg" alt="wakatime"></a>
 Practice [C#](https://github.com/dotnet/csharplang) and [ASP.Net Core](https://github.com/dotnet/aspnetcore)
 
 ## 💻 C# Basics [Source](https://toplearn.com/c/gJY) | [Code](https://github.com/AliKZ07/Practice_CS/tree/main/C%23%20Basics)
