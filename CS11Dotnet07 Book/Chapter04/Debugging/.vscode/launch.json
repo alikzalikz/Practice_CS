@@ -10,11 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/CS11Dotnet07 Book/Chapter04/WritingFunctions/bin/Debug/net7.0/WritingFunctions.dll",
+            "program": "${workspaceFolder}/CS11Dotnet07 Book/Chapter04/Debugging/bin/Debug/net7.0/Debugging.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/CS11Dotnet07 Book/Chapter04/WritingFunctions",
+            "cwd": "${workspaceFolder}/CS11Dotnet07 Book/Chapter04/Debugging",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
