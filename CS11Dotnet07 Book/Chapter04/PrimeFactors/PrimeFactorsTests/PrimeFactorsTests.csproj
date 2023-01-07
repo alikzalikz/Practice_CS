@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../PrimeFactorsLib/PrimeFactorsLib.csproj" />
+    <ProjectReference Include="..\PrimeFactorsLib\PrimeFactorsLib.csproj" />
   </ItemGroup>
 
 </Project>
