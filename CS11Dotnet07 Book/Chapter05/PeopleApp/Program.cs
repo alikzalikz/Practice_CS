@@ -1,4 +1,5 @@
-﻿using Packt.Shared;
+﻿using System.Reflection.Metadata.Ecma335;
+using Packt.Shared;
 
 Person bob = new();
 //WriteLine(bob.ToString());
@@ -122,3 +123,47 @@ WriteLine($"Before: d = {d}, e = {e}, f doesn't exist yet!");
 
 bob.PassingParameters(d, ref e, out int f);
 WriteLine($"After: d = {d}, e = {e}, f = {f}");
+
+WriteLine("----------------");
+
+Person Sam = new()
+{
+    Name = "Sam",
+    DateOfBirth = new(1969, 6, 25) 
+};
+WriteLine(Sam.Origin);
+WriteLine(Sam.Greeting);
+WriteLine(Sam.Age);
+
+Sam.FavoriteIceCream = "Chocolate Fudge";
+WriteLine($"Sam's favorite ice-cream flavor is {Sam.FavoriteIceCream}.");
+
+string color = "Red";
+
+try
+{
+    Sam.FavoritePrimaryColor = color;
+    WriteLine($"Sam's favorite primary color is {Sam.FavoritePrimaryColor}.");
+}
+catch (Exception ex)
+{
+    WriteLine("Tried to set {0} to '{1}': {2}",
+    nameof(Sam.FavoritePrimaryColor), color, ex.Message);
+}
+
+WriteLine("----------------");
+
+Book book = new()
+{
+    Isbn = "978-1803237800",
+    Title = "C# 11 and .NET 7 - Modern Cross-Platform Development Fundamentals"
+};
+
+WriteLine($"{book.Isbn}: {book.Title} written by {book.Author} has {book.PageCount:N0} pages.");
+
+WriteLine("----------------");
+
+Sam.Children.Add(new() {Name = "Ella", DateOfBirth = new(2020, 12, 24)});
+Sam.Children.Add(new() {Name = "Charlie", DateOfBirth = new(2010, 03, 18)});
+
+WriteLine($"Sam's child named Ella is {Sam["Ella"].Age} years old.");

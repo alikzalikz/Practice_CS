@@ -16,7 +16,7 @@ public enum WondersOfTheAncientWorld : byte
 
 
 
-public class Person : Object
+public partial class Person : Object
 {
     public WondersOfTheAncientWorld FavoriteAncientWonder;
     public WondersOfTheAncientWorld BucketList;
