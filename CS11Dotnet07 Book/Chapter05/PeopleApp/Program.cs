@@ -1,4 +1,6 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System.Drawing;
+using System.Globalization;
+using System.Reflection.Metadata.Ecma335;
 using Packt.Shared;
 
 Person bob = new();
@@ -205,3 +207,67 @@ if (lamech + zillah)
 {
     WriteLine($"{zillah.Name} and {lamech.Name} successfully got married.");
 }
+
+WriteLine("----------------");
+
+Passenger[] passengers = {
+    new FirstClassPassenger { AirMiles = 1_419, Name = "Suman" },
+    new FirstClassPassenger { AirMiles = 16_562, Name = "Lucy" },
+    new BusinessClassPassenger { Name = "Janice" },
+    new CoachClassPassenger { CarryOnKG = 25.7, Name = "Dave" },
+    new CoachClassPassenger { CarryOnKG = 0, Name = "Amit" },
+};
+
+// foreach (Passenger passenger in passengers)
+// {
+//     decimal flightCost = passenger switch
+//     {
+//         FirstClassPassenger p when p.AirMiles > 35000 => 1500M,
+//         FirstClassPassenger p when p.AirMiles > 15000 => 1750M,
+//         FirstClassPassenger _                         => 2000M,
+//         BusinessClassPassenger _                      => 1000M,
+//         CoachClassPassenger p when p.CarryOnKG < 10.0 => 500M,
+//         CoachClassPassenger _                         => 650M,
+//         _                                             => 800M
+//     };
+//     WriteLine($"Flight costs {flightCost:C} for {passenger}");
+// }
+
+foreach (Passenger passenger in passengers)
+{
+    decimal flightCost = passenger switch
+    {
+        FirstClassPassenger p => p.AirMiles switch
+        {
+            > 35000                                   => 1500M,
+            > 15000                                   => 1750M,
+            _                                         => 2000M
+        },
+        BusinessClassPassenger                        => 1000M,
+        CoachClassPassenger p => p.CarryOnKG switch
+        {
+            < 10.0                                    => 500M,
+            _                                         => 650M
+        },
+        _                                             => 800M
+    };
+    WriteLine($"Flight costs {flightCost:C} for {passenger}");
+}
+
+WriteLine("----------------");
+
+ImmutablePerson jeff = new()
+{
+    FirstName = "jeff",
+    LastName = "winger"
+};
+
+ImmutableVehicle car = new()
+{
+    Brand = "pride",
+    Color = "white",
+    Wheels = 4
+};
+ImmutableVehicle repaintedCar = car with {Color = "Polymetal Grey Metallic"};
+WriteLine($"Original car color was {car.Color}.");
+WriteLine($"New car color is {repaintedCar.Color}.");
