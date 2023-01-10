@@ -167,3 +167,41 @@ Sam.Children.Add(new() {Name = "Ella", DateOfBirth = new(2020, 12, 24)});
 Sam.Children.Add(new() {Name = "Charlie", DateOfBirth = new(2010, 03, 18)});
 
 WriteLine($"Sam's child named Ella is {Sam["Ella"].Age} years old.");
+
+WriteLine("----------------");
+
+Person lamech = new() { Name = "Lamech" };
+Person adah = new() { Name = "Adah" };
+Person zillah = new() { Name = "Zillah" };
+
+lamech.Marry(adah);
+Person.Marry(zillah, lamech);
+
+WriteLine($"{lamech.Name} is married to {lamech.Spouse?.Name ?? "nobody"}");
+WriteLine($"{adah.Name} is married to {adah.Spouse?.Name ?? "nobody"}");
+WriteLine($"{zillah.Name} is married to {zillah.Spouse?.Name ?? "nobody"}");
+
+Person baby1 = lamech * adah;
+baby1.Name = "Jabal";
+WriteLine($"{baby1.Name} was born on {baby1.DateOfBirth}");
+
+Person baby2 = zillah * lamech;
+baby2.Name = "Tubalcain";
+
+WriteLine($"{lamech.Name} has {lamech.Children.Count} children.");
+WriteLine($"{adah.Name} has {adah.Children.Count} children.");
+WriteLine($"{zillah.Name} has {zillah.Children.Count} children.");
+
+int count = 1;
+foreach (var i in lamech.Children)
+{
+    WriteLine($"{lamech.Name}'s child #{count} is named \"{i.Name}\".");
+    count++;
+}
+
+WriteLine("----------------");
+
+if (lamech + zillah)
+{
+    WriteLine($"{zillah.Name} and {lamech.Name} successfully got married.");
+}
