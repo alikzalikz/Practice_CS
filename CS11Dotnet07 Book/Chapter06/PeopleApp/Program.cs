@@ -25,3 +25,14 @@ lookupIntString.Add(key: 3, value: "Gamma");
 lookupIntString.Add(key: 4, value: "Delta");
 key  = 3;
 WriteLine($"key {key} has value {lookupIntString[key]}");
+
+Person p1 = new();
+int answer = p1.MethodIWantToCall("frog");
+
+harry.Shout += Harry_Shout;
+harry.Shout += Harry_Shout2;
+
+harry.Poke();
+harry.Poke();
+harry.Poke();
+harry.Poke();
