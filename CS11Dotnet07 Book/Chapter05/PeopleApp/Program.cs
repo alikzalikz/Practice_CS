@@ -61,3 +61,64 @@ WriteLine("----------------");
 
 Person gunny = new(initialName: "Gunny", homePlanet: "mars");
 WriteLine($"{gunny.Name} of {gunny.HomePlanet} was created at {gunny.Instantiated:hh:mm:ss} on a {gunny.Instantiated:dddd}.");
+
+WriteLine("----------------");
+
+bob.WriteToConsole();
+WriteLine(bob.GetOrigin());
+
+WriteLine("----------------");
+
+(string, int) fruit = bob.GetFruit();
+WriteLine($"{fruit.Item1}, {fruit.Item2} there are");
+
+WriteLine("----------------");
+
+var fruitNamed = bob.GetNamedFruit();
+WriteLine($"There are {fruitNamed.Number} {fruitNamed.Name}.");
+
+var thing1 = ("Neville", 4);
+WriteLine($"{thing1.Item1} has {thing1.Item2} children.");
+
+var thing2 = (bob.Name, bob.Children.Count);
+WriteLine($"{thing2.Name} has {thing2.Count} children.");
+
+(string fruitName, int fruitNumber) = bob.GetFruit();
+WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
+
+WriteLine("----------------");
+
+var (name1, dob1) = bob;
+WriteLine($"Deconstructed: {name1}, {dob1}");
+
+var (name2, dob2, fav2) = bob;
+WriteLine($"Deconstructed: {name2}, {dob2}, {fav2}");
+
+WriteLine("----------------");
+
+WriteLine(bob.SayHello());
+WriteLine(bob.SayHello("Ali"));
+
+WriteLine("----------------");
+
+WriteLine(bob.OptionalParameters());
+WriteLine(bob.OptionalParameters("Jump!", 98.5));
+WriteLine(bob.OptionalParameters(active: false,command: "cd!"));
+
+WriteLine("----------------");
+
+int a = 10;
+int b = 10;
+int c = 10;
+WriteLine($"Before: a = {a}, b = {b}, c = {c}");
+bob.PassingParameters(a, ref b, out c);
+WriteLine($"After: a = {a}, b = {b}, c = {c}");
+
+WriteLine("----------------");
+
+int d = 10;
+int e = 20;
+WriteLine($"Before: d = {d}, e = {e}, f doesn't exist yet!");
+
+bob.PassingParameters(d, ref e, out int f);
+WriteLine($"After: d = {d}, e = {e}, f = {f}");
