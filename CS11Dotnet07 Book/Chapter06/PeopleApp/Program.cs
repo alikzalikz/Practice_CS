@@ -58,3 +58,15 @@ WriteLine("----------------");
 
 Array.Sort(people, new PersonComparer());
 OutputPeopleNames(people, "After sorting using PersonComparer's IComparer implementation:");
+
+WriteLine("----------------");
+
+string ShowVector(DisplacementVector vector)
+{
+    return $"({vector.X}, {vector.Y})";
+}
+
+DisplacementVector dv1 = new(3, 5);
+DisplacementVector dv2 = new(-2, 7);
+DisplacementVector dv3 = dv1 + dv2;
+WriteLine($"{ShowVector(dv1)} + {ShowVector(dv2)} = {ShowVector(dv3)}");
