@@ -51,5 +51,5 @@ public class PersonComparer : IComparer<Person?>
             }
             
             return position;
-            }
+    } 
 }

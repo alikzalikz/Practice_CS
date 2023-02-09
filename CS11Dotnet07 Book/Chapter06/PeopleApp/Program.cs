@@ -70,3 +70,29 @@ DisplacementVector dv1 = new(3, 5);
 DisplacementVector dv2 = new(-2, 7);
 DisplacementVector dv3 = dv1 + dv2;
 WriteLine($"{ShowVector(dv1)} + {ShowVector(dv2)} = {ShowVector(dv3)}");
+
+WriteLine("----------------");
+
+Employee john = new()
+{
+    Name = "John Jones",
+    DateOfBirth = new(year:1990, month:07, day:28)
+};
+john.WriteToConsole();
+john.EmployeeCode = "JJ002";
+john.HireDate = new(year: 2014, month: 11, day: 23);
+WriteLine($"{john.Name}was hired on {john.HireDate:dd/MM/yy}");
+
+WriteLine("----------------");
+
+WriteLine(john.ToString());
+
+WriteLine("----------------");
+
+Employee aliceInEmployee = new(){ Name = "Alice", EmployeeCode = "AA123" };
+
+Person aliceInPerson = aliceInEmployee;
+aliceInEmployee.WriteToConsole();
+aliceInPerson.WriteToConsole();
+WriteLine(aliceInEmployee.ToString());
+WriteLine(aliceInPerson.ToString());

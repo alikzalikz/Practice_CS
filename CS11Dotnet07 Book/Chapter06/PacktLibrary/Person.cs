@@ -63,4 +63,9 @@ public class Person : Object, IComparable<Person?>
         }
         return position;
     }
+
+    public override string ToString()
+    {
+        return $"{Name} is a {base.ToString()}";
+    }
 }

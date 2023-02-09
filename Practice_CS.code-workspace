@@ -4,5 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"todo-tree.tree.showBadges": true
+	}
 }
