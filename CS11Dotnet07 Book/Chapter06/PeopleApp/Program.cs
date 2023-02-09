@@ -1,4 +1,5 @@
-﻿using Packt.Shared;
+﻿using System.Security.Cryptography.X509Certificates;
+using Packt.Shared;
 
 Person harry = new()
 {
@@ -100,3 +101,25 @@ WriteLine(aliceInPerson.ToString());
 WriteLine("----------------");
 
 Employee explicitAlice = (Employee)aliceInPerson;
+
+WriteLine("----------------");
+
+try
+{
+    john.TimeTravel(when: new(1999, 12, 31));
+    john.TimeTravel(when: new(1950, 12, 25));
+}
+catch (PersonException ex)
+{
+    WriteLine(ex.Message);
+}
+
+WriteLine("----------------");
+
+string email1 = "pamela@test.com";
+string email2 = "ian&test.com";
+WriteLine($"{email1} is a valid e-mail address: {StringExtensions.IsValidEmail(email1)}");
+WriteLine($"{email2} is a valid e-mail address: {StringExtensions.IsValidEmail(email2)}");
+
+WriteLine($"{email1} is a valid e-mail address: {email1.IsValidEmail()}");
+WriteLine($"{email2} is a valid e-mail address: {email2.IsValidEmail()}");

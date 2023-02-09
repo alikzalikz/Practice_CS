@@ -68,4 +68,16 @@ public class Person : Object, IComparable<Person?>
     {
         return $"{Name} is a {base.ToString()}";
     }
+
+    public void TimeTravel(DateTime when)
+    {
+        if (when <= DateOfBirth)
+        {
+            throw new PersonException("If you travel back in time to a date earlier than your own birth, then the universe will explode!");
+        }
+        else
+        {
+            WriteLine($"Welcome to {when:yyyy}!");
+        }
+    }
 }
