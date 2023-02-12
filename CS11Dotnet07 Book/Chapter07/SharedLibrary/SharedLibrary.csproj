@@ -2,6 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>alikz.CS11Dotnet07Book.Chapter07.SharedLibrary</PackageId>
+    <PackageVersion>0.0.1.0</PackageVersion>
+    <Title>C# 11 and .NET 7 Shared Library</Title>
+    <Authors>alikz</Authors>
+    <PackageLicenseExpression>
+      MIT
+    </PackageLicenseExpression>
+    <PackageProjectUrl>
+      https://github.com/alikzalikz/Practice_CS/blob/main/CS11Dotnet07%20Book/Chapter07/SharedLibrary/
+    </PackageProjectUrl>
+    <!-- <PackageIcon>packt-csdotnet-sharedlibrary.png</PackageIcon> -->
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>
+      Example shared library packaged for NuGet.
+    </PackageReleaseNotes>
+    <Description>
+      Three extension methods to validate a string value.
+    </Description>
+    <Copyright>
+      Copyright © 2016-2022 alikz
+    </Copyright>
+    <PackageTags>string extensions packt csharp dotnet alikz</PackageTags>
   </PropertyGroup>
 
 </Project>

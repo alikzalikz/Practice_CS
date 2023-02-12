@@ -11,6 +11,10 @@
     <Using Include="System.Console" Static="true" />
     <Using Remove="System" /> 
   </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="newtonsoft.json" Version="13.0.2" />
+  </ItemGroup>
 
 
 </Project>
