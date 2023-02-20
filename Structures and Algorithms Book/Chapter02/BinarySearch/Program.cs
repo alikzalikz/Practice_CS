@@ -7,17 +7,11 @@
         int midpoint = (upper_bound + lower_bound) / 2;
         int value_at_midpoint = array[midpoint];
         if (value_at_midpoint == search_value)
-        {
             return midpoint;
-        }
         else if (search_value < value_at_midpoint)
-        {
             upper_bound = midpoint - 1;
-        }
         else if (search_value > value_at_midpoint)
-        {
             lower_bound = midpoint + 1;
-        }
     }
     return -1;
 }
