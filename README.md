@@ -5,8 +5,8 @@ Practice [C#](https://github.com/dotnet/csharplang) and [ASP.Net Core](https://g
 ```markdown
 Institute: TopLearn        Teacher: Iman Madaeny           
 Time: 10.hour              Number of Practices: 26 
-Topics: Switch Case | IfElse | For | GenericList | Static | Property | OOP | WinForm
-        Basics of SQL Server
+Topics: Switch Case | IfElse | For | GenericList | Static 
+        Property | OOP | WinFormSample | Basics of SQL Server
 ```
 ## 💻 C# Advanced [Source](https://toplearn.com/c/mZO) | [Code](https://github.com/AliKZ07/Practice_CS/tree/main/C%23%20Advanced)
 ```markdown
@@ -14,10 +14,20 @@ Institute: TopLearn        Teacher: Iman Madaeny
 Time: 10.hour              Number of Practices: 
 Topics: Linq | 
 ```
-## 📓 CS11Dotnet07 Book [Source](https://a.co/d/1cTUHN6) | [Code](https://github.com/AliKZ07/Practice_CS/tree/main/CS11Dotnet07%20Book)
+<img align="right" src="https://raw.githubusercontent.com/AliKZ07/Practice_CS/main/content/images/CS11Dotnet07%20Book.jpg" alt="CS11Dotnet07 Book" width="140px" />
+
+## 📓 CS11Dotnet07 [Source](https://a.co/d/1cTUHN6) | [Code](https://github.com/AliKZ07/Practice_CS/tree/main/CS11Dotnet07%20Book)
 ```markdown
-Book name: C# 11 and .NET 7 – Modern Cross-Platform Development Fundamentals
-Auther: Mark J. Price      Number of Pages: 819 
-Topics: C# | start building website using ASP.NET Core | Blazor | EF Core
+Book name: C# 11 and .NET 7
+Auther: Mark J. Price      Pages: 819 
+Topics: C# | start building website | Blazor
+        EF Core
 ```
-![CS11Dotnet07 Book](https://raw.githubusercontent.com/AliKZ07/Practice_CS/main/content/images/CS11Dotnet07%20Book.jpg)
+<img align="right" src="" alt="Structures and Algorithms Book" width="140px" />
+
+## 📓 Structures and Algorithms [Source](https://a.co/d/3QHz6QU) | [Code]()
+```markdown
+Book name: A Common-Sense Guide to Data Structures and Algorithms
+Auther: Jay Wengrow      Pages: 499
+Topics: 
+```
