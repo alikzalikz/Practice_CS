@@ -23,7 +23,7 @@ Auther: Mark J. Price      Pages: 819
 Topics: C# | start building website | Blazor
         EF Core
 ```
-<img align="right" src="" alt="Structures and Algorithms Book" width="140px" />
+<img align="right" src="https://raw.githubusercontent.com/alikzalikz/Practice_CS/main/content/images/Structures.and.Algorithms.Book.jpg" alt="Structures and Algorithms Book" width="140px" />
 
 ## 📓 Structures and Algorithms [Source](https://a.co/d/3QHz6QU) | [Code]()
 ```markdown
