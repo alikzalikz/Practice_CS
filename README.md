@@ -25,7 +25,7 @@ Topics: C# | start building website | Blazor
 ```
 <img align="right" src="https://raw.githubusercontent.com/alikzalikz/Practice_CS/main/content/images/Structures.and.Algorithms.Book.jpg" alt="Structures and Algorithms Book" width="140px" />
 
-## 📓 Structures and Algorithms [Source](https://a.co/d/3QHz6QU) | [Code]()
+## 📓 Data Structures and Algorithms [Source](https://a.co/d/3QHz6QU) | [Code]()
 ```markdown
 Book name: A Common-Sense Guide to Data Structures and Algorithms
 Auther: Jay Wengrow      Pages: 499
