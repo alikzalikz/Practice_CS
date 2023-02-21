@@ -13,6 +13,7 @@
   </ItemGroup>
   
   <ItemGroup>
+    <PackageReference Include="alikz.CS11Dotnet07Book.Chapter07.SharedLibrary" Version="0.0.1" />
     <PackageReference Include="newtonsoft.json" Version="13.0.2" />
   </ItemGroup>
 
