@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRanges", "WorkingWithRanges\WorkingWithRanges.csproj", "{E02C385D-16D8-4D8F-90F7-061C77504E26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNetworkResources", "WorkingWithNetworkResources\WorkingWithNetworkResources.csproj", "{6E63DB3B-A7ED-42BC-B373-192910A3064D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{E02C385D-16D8-4D8F-90F7-061C77504E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E02C385D-16D8-4D8F-90F7-061C77504E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02C385D-16D8-4D8F-90F7-061C77504E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E63DB3B-A7ED-42BC-B373-192910A3064D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E63DB3B-A7ED-42BC-B373-192910A3064D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E63DB3B-A7ED-42BC-B373-192910A3064D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E63DB3B-A7ED-42BC-B373-192910A3064D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
