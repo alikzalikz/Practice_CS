@@ -1,1 +1,4 @@
-﻿WriteLine("Hello World - Implicit Using :)");
+﻿using packt.shared;
+
+Northwind db = new();
+WriteLine($"provider: {db.Database.ProviderName}");
