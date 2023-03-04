@@ -19,6 +19,8 @@ public class Northwind : DbContext
         ForegroundColor = previousColor;
         
         optionsBuilder.UseSqlite(connection);
+
+        // optionsBuilder.LogTo(WriteLine).EnableSensitiveDataLogging();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -34,6 +36,9 @@ public class Northwind : DbContext
             modelBuilder.Entity<Product>()
                 .Property(product => product.Cost)
                 .HasConversion<double>();
+        
+            modelBuilder.Entity<Product>()
+                .HasQueryFilter(p => !p.Discontinued);
         }
     }
 }
