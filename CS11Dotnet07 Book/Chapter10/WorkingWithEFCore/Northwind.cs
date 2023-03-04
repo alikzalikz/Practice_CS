@@ -13,14 +13,16 @@ public class Northwind : DbContext
         
         string connection = $"Filename={path}";
         
-        ConsoleColor previousColor = ForegroundColor;
-        ForegroundColor = ConsoleColor.DarkYellow;
-        WriteLine($"Connection: {connection}");
-        ForegroundColor = previousColor;
+        // ConsoleColor previousColor = ForegroundColor;
+        // ForegroundColor = ConsoleColor.DarkYellow;
+        // WriteLine($"Connection: {connection}");
+        // ForegroundColor = previousColor;
         
         optionsBuilder.UseSqlite(connection);
 
-        // optionsBuilder.LogTo(WriteLine).EnableSensitiveDataLogging();
+        optionsBuilder.LogTo(WriteLine).EnableSensitiveDataLogging();
+        
+        optionsBuilder.UseLazyLoadingProxies();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
