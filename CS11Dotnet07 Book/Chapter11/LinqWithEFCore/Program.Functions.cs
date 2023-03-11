@@ -1,6 +1,7 @@
-using System.Collections.Specialized;
+using System.Security.AccessControl;
 using Packt.Shared;
 using Microsoft.EntityFrameworkCore;
+using System.Xml.Linq;
 
 partial class Program
 {
@@ -12,7 +13,9 @@ partial class Program
         {
             DbSet<Product> allProducts = db.Products;
 
-            IQueryable<Product> filteredProducts = allProducts
+            IQueryable<Product> processedProducts = allProducts.ProcessSequence();
+
+            IQueryable<Product> filteredProducts = processedProducts
                 .Where(product => product.UnitPrice < 10M);
 
             IOrderedQueryable<Product> sortedAndFilteredProducts = filteredProducts
@@ -233,6 +236,76 @@ partial class Program
 
                 Clear();
             }
+        }
+    }
+
+    static void CustomExtensionMethods()
+    {
+        SectionTitle("Custom aggregate extension methods");
+
+        using (Northwind db = new())
+        {
+            WriteLine("{0,-25} {1,10:N0}",
+                "Mean units in stock:",
+                db.Products.Average(p => p.UnitsInStock));
+
+            WriteLine("{0,-25} {1,10:$#,##0.00}",
+                "Mean unit price:",
+                db.Products.Average(p => p.UnitPrice));
+
+            WriteLine("{0,-25} {1,10:N0}",
+                "Median units in stock:",
+                db.Products.Median(p => p.UnitsInStock));
+
+            WriteLine("{0,-25} {1,10:$#,##0.00}",
+                "Median unit price:",
+                db.Products.Median(p => p.UnitPrice));
+
+            WriteLine("{0,-25} {1,10:N0}",
+                "Mode units in stock:",
+                db.Products.Mode(p => p.UnitsInStock));
+
+            WriteLine("{0,-25} {1,10:$#,##0.00}",
+                "Mode unit price:",
+                db.Products.Mode(p => p.UnitPrice));
+        }
+    }
+
+    static void OutputProductsAsXml()
+    {
+        SectionTitle("Output products as XML");
+
+        using (Northwind db = new())
+        {
+            Product[] productsArray = db.Products.ToArray();
+
+            XElement xml = new("products",
+                from p in productsArray
+                select new XElement("product",
+                    new XAttribute("id", p.ProductId),
+                    new XAttribute("price", p.UnitPrice),
+                    new XElement("name", p.ProductName)));
+            WriteLine(xml.ToString());
+        }
+    }
+
+    static void ProcessSettings()
+    {
+        string path = Path.Combine(Environment.CurrentDirectory, "settings.xml");
+        WriteLine($"Settings file path: {path}");
+
+        XDocument doc = XDocument.Load(path);
+        var appSettings = doc.Descendants("appSettings")
+            .Descendants("add")
+            .Select(node => new
+            {
+                Key = node.Attribute("key")?.Value,
+                Value = node.Attribute("value")?.Value
+            }).ToArray();
+        
+        foreach (var item in appSettings)
+        {
+            WriteLine($"{item.Key}: {item.Value}");
         }
     }
 }
