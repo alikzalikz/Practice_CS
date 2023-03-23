@@ -198,7 +198,7 @@ partial class Program
             .Skip(currentPage * pageSize)
             .Take(pageSize);
         
-        SectionTitle(pagingQuery.ToQueryString());
+        // SectionTitle(pagingQuery.ToQueryString());
 
         OutputTableOfProducts(pagingQuery.ToArray(), currentPage, totalPage);
     }

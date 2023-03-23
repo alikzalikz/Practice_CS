@@ -1,9 +1,9 @@
 ﻿// FilterAndSort();
 // JoinCategoriesAndProducts();
 // GroupJoinCategoriesAndProducts();
-// Clear();
+Clear();
 // AggregateProducts();
-// PagingProducts();
+PagingProducts();
 // CustomExtensionMethods();
 // OutputProductsAsXml();
-ProcessSettings();
+// ProcessSettings();
