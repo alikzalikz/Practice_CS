@@ -1,0 +1,19 @@
+@page
+@model Northwind.Web.Pages.SuppliersModel
+<div class="row">
+  <h1 class="display-2">Suppliers</h1>
+  <table class="table">
+    <thead class="thead-inverse">
+      <tr><th>Company Name</th></tr>
+    </thead>
+    <tbody>
+    @if (Model.Suppliers is not null)
+    {
+      @foreach(string name in Model.Suppliers)
+      {
+        <tr><td>@name</td></tr>
+      }
+    }
+    </tbody>
+  </table>
+</div>
