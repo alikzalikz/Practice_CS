@@ -1,7 +1,8 @@
-@page
+﻿@page
 @using Packt.Shared
 @model Northwind.Web.Pages.SuppliersModel
-@addTagHelper *, Mirosoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 <div class="row">
   <h1 class="display-2">Suppliers</h1>
   <table class="table">
@@ -18,9 +19,9 @@
       @foreach(Supplier s in Model.Suppliers)
       {
         <tr>
-            <td>@s.CompanyName</td>
-            <td>@s.Country</td>
-            <td>@s.Phone</td>
+          <td>@s.CompanyName</td>
+          <td>@s.Country</td>
+          <td>@s.Phone</td>
         </tr>
       }
     }

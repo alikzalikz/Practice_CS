@@ -10,9 +10,15 @@ namespace Packt.Shared;
 [Index("PostalCode", Name = "PostalCodeSuppliers")]
 public partial class Supplier
 {
+    public Supplier()
+    {
+        Products = new HashSet<Product>();
+    }
+
     [Key]
     public long SupplierId { get; set; }
 
+    [Required]
     [Column(TypeName = "nvarchar (40)")]
     [StringLength(40)]
     public string CompanyName { get; set; } = null!;
@@ -57,5 +63,5 @@ public partial class Supplier
     public string? HomePage { get; set; }
 
     [InverseProperty("Supplier")]
-    public virtual ICollection<Product> Products { get; } = new List<Product>();
+    public virtual ICollection<Product> Products { get; set; }
 }

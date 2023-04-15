@@ -16,6 +16,11 @@ namespace Packt.Shared;
 [Index("ShipVia", Name = "ShippersOrders")]
 public partial class Order
 {
+    public Order()
+    {
+        OrderDetails = new HashSet<OrderDetail>();
+    }
+
     [Key]
     public int OrderId { get; set; }
 
@@ -73,11 +78,11 @@ public partial class Order
     [ForeignKey("EmployeeId")]
     [InverseProperty("Orders")]
     public virtual Employee? Employee { get; set; }
-
-    [InverseProperty("Order")]
-    public virtual ICollection<OrderDetail> OrderDetails { get; } = new List<OrderDetail>();
-
+    
     [ForeignKey("ShipVia")]
     [InverseProperty("Orders")]
     public virtual Shipper? ShipViaNavigation { get; set; }
+    
+    [InverseProperty("Order")]
+    public virtual ICollection<OrderDetail> OrderDetails { get; set; }
 }

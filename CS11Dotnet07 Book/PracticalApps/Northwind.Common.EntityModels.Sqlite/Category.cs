@@ -9,6 +9,11 @@ namespace Packt.Shared;
 [Index("CategoryName", Name = "CategoryName")]
 public partial class Category
 {
+    public Category()
+    {
+        Products = new HashSet<Product>();
+    }
+
     [Key]
     public int CategoryId { get; set; }
 
@@ -24,5 +29,5 @@ public partial class Category
     public byte[]? Picture { get; set; }
 
     [InverseProperty("Category")]
-    public virtual ICollection<Product> Products { get; } = new List<Product>();
+    public virtual ICollection<Product> Products { get; set; }
 }

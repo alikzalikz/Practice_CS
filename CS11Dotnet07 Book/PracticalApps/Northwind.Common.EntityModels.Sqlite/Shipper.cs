@@ -8,6 +8,11 @@ namespace Packt.Shared;
 
 public partial class Shipper
 {
+    public Shipper()
+    {
+        Orders = new HashSet<Order>();
+    }
+
     [Key]
     public int ShipperId { get; set; }
 
@@ -21,5 +26,5 @@ public partial class Shipper
     public string? Phone { get; set; }
 
     [InverseProperty("ShipViaNavigation")]
-    public virtual ICollection<Order> Orders { get; } = new List<Order>();
+    public virtual ICollection<Order> Orders { get; set; }
 }

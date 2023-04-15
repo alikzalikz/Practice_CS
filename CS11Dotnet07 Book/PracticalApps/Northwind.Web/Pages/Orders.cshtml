@@ -1,13 +1,13 @@
-@page
+﻿@page
 @using Packt.Shared
 @inject NorthwindContext db
 @{
-    string title = "Order";
-    ViewData["Title"]=$"Northwind B2b - {title}";
+  string title = "Orders";
+  ViewData["Title"] = $"Northwind B2B - {title}";
 }
 <div class="row">
-    <h1 class="display-2">@title</h1>
-    <p>
-        There are @db.Orders.Count() orders in the Northwind database
-    </p>
+  <h1 class="display-2">@title</h1>
+  <p>
+    There are @db.Orders.Count() orders in the Northwind database.
+  </p>
 </div>

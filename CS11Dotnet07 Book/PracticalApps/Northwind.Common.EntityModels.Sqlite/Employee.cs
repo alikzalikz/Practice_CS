@@ -10,6 +10,11 @@ namespace Packt.Shared;
 [Index("PostalCode", Name = "PostalCodeEmployees")]
 public partial class Employee
 {
+    public Employee()
+    {
+        Orders = new HashSet<Order>();
+    }
+
     [Key]
     public int EmployeeId { get; set; }
 
@@ -71,7 +76,7 @@ public partial class Employee
     [Column(TypeName = "ntext")]
     public string? Notes { get; set; }
 
-    [Column(TypeName = "INT")]
+    [Column(TypeName = "int")]
     public int? ReportsTo { get; set; }
 
     [Column(TypeName = "nvarchar (255)")]
@@ -79,5 +84,5 @@ public partial class Employee
     public string? PhotoPath { get; set; }
 
     [InverseProperty("Employee")]
-    public virtual ICollection<Order> Orders { get; } = new List<Order>();
+    public virtual ICollection<Order> Orders { get; set; }
 }
