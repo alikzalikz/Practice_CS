@@ -1,9 +1,19 @@
+// using Microsoft.AspNetCore.Server.Kestrel.Core; // HttpProtocols
 using Packt.Shared; // AddNorthwindContext()
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddNorthwindContext();
 builder.Services.AddRequestDecompression();
+
+// builder.WebHost.ConfigureKestrel((context, options) =>
+// {
+//     options.ListenAnyIP(5001, listenOption =>
+//     {
+//         listenOption.Protocols = HttpProtocols.Http1AndHttp2AndHttp3;
+//         listenOption.UseHttps();
+//     });
+// });
 
 var app = builder.Build();
 
