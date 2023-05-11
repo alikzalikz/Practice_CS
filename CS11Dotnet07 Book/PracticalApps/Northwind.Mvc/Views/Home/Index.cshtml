@@ -81,14 +81,14 @@
         <form asp-action="Customers" method="get">
         <input name="country" placeholder="Enter a country" />
         <input type="submit" />
-        </form>
+        </form>*@
 
         <h3>Query products by price</h3>
         <form asp-action="ProductsThatCostMoreThan" method="GET">
-        <input name="price" placeholder="Enter a product price" />
-        <input type="submit" />
+            <input name="price" placeholder="Enter a product price" />
+            <input type="submit" />
         </form>
-        *@
+
         @if (Model is not null)
         {
             <h2>Products</h2>

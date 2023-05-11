@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc; // Controller, IActionResult
 using Northwind.Mvc.Models; // ErrorViewModel
 using Packt.Shared; // NorthwindContext
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 
 namespace Northwind.Mvc.Controllers;
 
@@ -78,6 +79,29 @@ public class HomeController : Controller
                 .SelectMany(state => state.Errors)
                 .Select(error => error.ErrorMessage)
         );
+
+        return View(model);
+    }
+
+    public IActionResult ProductsThatCostMoreThan(decimal? price)
+    {
+        if (!price.HasValue)
+        {
+            return BadRequest("You must pass a product price in the query string,\r\n for example, /Home/ProductsThatCostMoreThan?price=50");
+
+        }
+            
+        IEnumerable<Product> model = db.Products
+            .Include(p => p.Category)
+            .Include(p => p.Supplier)
+            .Where(p => p.UnitPrice > price);
+
+        if (!model.Any())
+        {
+            return NotFound($"no products cost more than {price:C}.");
+        }
+
+        ViewData["MaxPrice"] = price.Value.ToString("C");
 
         return View(model);
     }
