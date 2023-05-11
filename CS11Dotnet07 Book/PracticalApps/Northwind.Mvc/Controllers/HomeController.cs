@@ -19,13 +19,13 @@ public class HomeController : Controller
     }
 
     [ResponseCache(Duration = 10, Location = ResponseCacheLocation.Any)]
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
         HomeIndexViewModel model = new
         (
             VisitorCount: Random.Shared.Next(1, 1001),
-            Categories: db.Categories.ToList(),
-            Products: db.Products.ToList()
+            Categories: await db.Categories.ToListAsync(),
+            Products: await db.Products.ToListAsync()
         );
 
         return View(model);
@@ -53,8 +53,8 @@ public class HomeController : Controller
             return BadRequest("You must pass a product ID in the route, for\r\n example, /Home/ProductDetail/21");
         }
 
-        Product? model = db.Products
-            .SingleOrDefault(p => p.ProductId == id);
+        Product? model = await db.Products
+            .SingleOrDefaultAsync(p => p.ProductId == id);
 
         if (model is null)
         {
