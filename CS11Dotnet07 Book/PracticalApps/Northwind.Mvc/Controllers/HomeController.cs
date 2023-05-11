@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc; // Controller, IActionResult
 using Northwind.Mvc.Models; // ErrorViewModel
 using Packt.Shared; // NorthwindContext
+using Microsoft.AspNetCore.Authorization;
 
 namespace Northwind.Mvc.Controllers;
 
@@ -16,6 +17,7 @@ public class HomeController : Controller
         db = injectedContext;
     }
 
+    [ResponseCache(Duration = 10, Location = ResponseCacheLocation.Any)]
     public IActionResult Index()
     {
         HomeIndexViewModel model = new
@@ -28,6 +30,8 @@ public class HomeController : Controller
         return View(model);
     }
 
+    [Route("private")]
+    [Authorize(Roles = "Adminstrator")]
     public IActionResult Privacy()
     {
         return View();
@@ -37,5 +41,44 @@ public class HomeController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+
+    public async Task<IActionResult> ProductDetail(int? id, string alertstyle = "success")
+    {
+        ViewData["alertstyle"] = alertstyle;
+
+        if (!id.HasValue)
+        {
+            return BadRequest("You must pass a product ID in the route, for\r\n example, /Home/ProductDetail/21");
+        }
+
+        Product? model = db.Products
+            .SingleOrDefault(p => p.ProductId == id);
+
+        if (model is null)
+        {
+            return NotFound($"Product {id} not found");
+        }
+
+        return View(model);
+    }
+
+    public IActionResult ModelBinding()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult ModelBinding(Thing thing)
+    {
+        HomeModelBindingViewModel model = new(
+            Thing: thing,
+            HasError: !ModelState.IsValid,
+            ValidationErrors: ModelState.Values
+                .SelectMany(state => state.Errors)
+                .Select(error => error.ErrorMessage)
+        );
+
+        return View(model);
     }
 }
